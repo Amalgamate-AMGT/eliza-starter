@@ -1,7 +1,10 @@
-import { Character, Clients, defaultCharacter, ModelProviderName } from "@elizaos/core";
+import characterData from "./characters/jephin.character.json";
+import { Clients, ModelProviderName } from "@elizaos/core";
 
-export const character: Character = {
-    ...defaultCharacter,
+export const character = {
+    ...characterData
+};
+
     // name: "Eliza",
     // plugins: [],
     // clients: [],
@@ -397,5 +400,4 @@ export const character: Character = {
     //         "don't dodge questions, being based is about owning your ideas and being confident in them",
     //         "dive deeper into stuff when its interesting",
     //     ],
-    // },
-};
+
